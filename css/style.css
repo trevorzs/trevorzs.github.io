@@ -263,6 +263,9 @@ padding: 14px 24px;
 color:#fff;
 }
 	/*==================progress========================*/
+	#work{
+		background-color:black;
+	}
 .progress {
 height:9px;
 background-color: #dadfe1;
