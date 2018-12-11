@@ -193,6 +193,18 @@ background:rgba(255,255,255,0.1);
 .title-page{
 color:#7a7a7a;
 }
+.title-page2{
+color:white;
+}
+.title-page2 h2{
+position: relative;
+margin: 0 ;
+z-index: 77;
+padding: 0 0 20px 0;
+font-size:36px;
+font-weight:600;
+font-famiily:'Lato';
+}
 .title-page h2{
 position: relative;
 margin: 0 ;
@@ -234,6 +246,10 @@ padding:120px 0;
 }
 .page-bgcolor{
 background:#f2f2f2;
+}
+.page-bgcolor2{
+background:grey;
+color: white;
 }
 /* ================================================= about us ================================================== */
 
@@ -502,42 +518,20 @@ z-index: 88;
 
 }
 .link-attr a{
-
-border:3px solid #fff;
--webkit-border-radius: 100%;
--moz-border-radius: 100%;
--o-border-radius: 100%;
-border-radius: 100%;
-width: 48px;
-height: 48px;
 background: transparent;
 padding: 10px 12px;
 color:#fff;
-animation-duration: 750ms;
-  -webkit-animation-duration: 750ms;
-  -moz-animation-duration: 750ms;
-  -ms-animation-duration: 750ms;
-  -o-animation-duration: 750ms;
-        animation-iteration-count: backwards;
-        -webkit-animation-iteration-count: backwards;
-        -moz-animation-iteration-count: backwards;
-        -ms-animation-iteration-count: backwards;
-        -o-animation-iteration-count: backwards;
-			-webkit-animation-delay: 500ms;
-			-moz-animation-delay: 500ms;
-			-ms-animation-delay: 500ms;
-			-o-animation-delay: 500ms;
 display:none;
 }
 .link-search{
 position:absolute;
-left:50%;
+left:25%;
 top:-24px;
 margin-left:-55px;
 }
 .link-chain{
 position:absolute;
-right:50%;
+right:25%;
 top:-24px;
 margin-right:-55px;
 }
@@ -825,4 +819,24 @@ margin-top: 10px;
      margin:0 auto;
     }
 
+}
+
+.github-link{
+	color:grey;
+}
+
+.github-link-text:hover{
+	color: #f24971;
+}
+.portfolio-caption{
+	padding-top:20px;
+	color:white;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.white{
+	color:white;
+	border:1px solid white;
 }
